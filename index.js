@@ -8,4 +8,7 @@ const math = require("./math");
 //   console.log("this file has been created");
 // })
 // console.log(math);
-console.log(math.sum(4, 5));
+const { sum, multiply } = math;
+console.log(sum, "this is sum");
+console.log(sum(4, 5));
+console.log(multiply(4, 5), "this is multiply");
